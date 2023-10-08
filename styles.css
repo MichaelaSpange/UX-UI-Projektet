@@ -1,0 +1,631 @@
+/*--- Generelle regler ---*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgba(78, 79, 61, 1);
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(img/Forside\ 14.png);
+    background-size: cover;
+    height: 100%;
+  }
+
+/*---- Styling af header ----*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#active_page {
+    text-decoration: underline;
+}
+
+#burger {
+    display: none;
+}
+
+#burgermenu {
+    display: none;
+}
+
+#burger_img {
+    display: none;
+}
+
+#logo {
+    margin: 10px;
+    padding: 2% 0 0 2%;
+}
+
+#bruger_ikon {
+    padding: 0 5% 0 35%;
+}
+
+.menupunkt {
+    padding: 10px;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+/*--- Styling af footer ---*/
+
+footer {
+    background-color: rgba(226, 220, 190, 1);
+    display: flex;
+    width: auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    line-height: 30px;
+    border: 1px rgba(78, 79, 61, 1) solid;
+}
+
+#social_icons {
+    display: flex;
+    align-self: center;
+}
+
+.socialicon {
+    margin: 20px;
+    height: 40px;
+}
+
+#placeholder li a {
+    color: rgba(226, 220, 190, 1);
+}
+
+/*--- Styling af main content ---*/
+
+.img-text-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10%;
+}
+
+.box-image {
+    width: 50%;
+}
+
+.centreret-text-left {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.main-button {
+    background-color: rgba(79, 112, 74, 1);
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: rgba(242, 230, 206, 1);
+    font-size:18px;   
+}
+
+.main-button:hover {
+    background-color: rgb(102, 137, 96);
+    text-decoration: none;
+}
+
+.text_section {
+    background-color: rgba(163, 162, 118, 1);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 370px;
+}
+
+.text_div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 5%;
+    align-items: center;
+}
+
+.text_div img {
+    margin-bottom: 30px;
+}
+
+.tre_kort {
+    display: flex;
+    padding: 5%;
+    justify-content: space-evenly;
+}
+
+.kort{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tre_kort img {
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.main-button-kort {
+    background-color: rgba(79, 112, 74, 1);
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: rgba(242, 230, 206, 1);
+    font-size:18px;
+    width: 130px;
+}
+
+.main-button-kort:hover {
+    background-color: rgb(102, 137, 96);
+    text-decoration: none;
+}
+
+#fejl_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spildt_ramen {
+    width: 60%;
+}
+
+.main-button-404 {
+    background-color: rgba(79, 112, 74, 1);
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: rgba(242, 230, 206, 1);
+    font-size:18px;
+    width: 130px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.main-button-404:hover {
+    background-color: rgb(102, 137, 96);
+    text-decoration: none;
+}
+
+#karussel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pil{
+    width:50px;
+    height:50px;
+    margin: 5%;
+}
+
+.centreret-text-right {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.centreret-text-left_forside {
+    width: 50%;
+    text-align: left;
+    padding: 0 1% 0 0;
+}
+
+.nummer_img {
+    margin-bottom: 10%;  
+    width: 30%; 
+}
+
+.karrusel_img {
+    width: 23%;
+    margin-top: 2%;
+}
+
+.karrusel_knap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(79, 112, 74, 1);
+    padding: 15px 50px 15px 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: rgba(242, 230, 206, 1);
+    font-size:18px;
+}
+
+.karrusel_knap:hover {
+    background-color: rgb(102, 137, 96);
+    text-decoration: none;
+}
+
+#karrusel_knap_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.process_kasse {
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    border: 2px solid rgba(78, 79, 61, 1) ;
+    background-color: rgba(242, 230, 206, 1);
+    border-radius: 20px;
+}
+
+.antal {
+    display: flex;
+    align-items: center;
+}
+
+.antal_knapper {
+    background-color: rgba(226, 220, 190, 1);
+    border: 1px solid rgba(78, 79, 61, 1) ;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 2%;
+    font-weight: bolder;
+}
+
+.antal_knapper:hover {
+    background-color: rgba(163, 162, 118, 1);
+}
+
+.process_bar {
+    margin: 5% 0 20% 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 70px;
+}
+
+input {
+    width: 50%;
+}
+
+#registrerings_knapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 4%;
+margin-bottom: 10%;
+}
+
+#gmail_knap {
+    background-color: white;
+    justify-content: center;
+    padding: 1% 9% 1% 9%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#facebook_knap {
+    background-color: rgba(41, 120, 209, 1);
+    color: white;
+    
+    justify-content: center;
+    padding: 1% 6.4% 1% 6.4%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#apple_knap {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 1% 9% 1% 9%;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.tidspunkter {
+    margin: 50px;
+}
+
+.tidspunkter li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.betalingskasse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.textgennemfoert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    margin-bottom: 100px;
+}
+.tilkoebbox {
+    background-color: rgba(163, 162, 118, 1);
+    padding: 3% 2% 2% 0;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tilkoeb-box-img {
+    padding-left: 2%;
+    width: 35%;
+}
+
+.tilkoeb-text {
+    padding-left:10%;
+}
+
+/*--- Styling af H-tags ---*/
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0 50px 0;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: rgba(78, 79, 61, 1);
+    font-weight: 100;
+    margin-top: 6%;
+    line-height: 30px;
+}
+
+h4 {
+    margin-right: 20%;
+}
+
+h5 {
+    font-weight: 100;
+    margin: 2% 0 2% 0;
+}
+
+h6 {
+    margin: 15% 0 2% 0;
+    font-size: 16px;
+}
+
+h7 {
+    font-size: 30px;
+  
+}
+p {
+    color: rgba(242, 230, 206, 1);
+    font-size: 20px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgba(78, 79, 61, 1);
+    border: none;
+}
+
+/*------ Mobil ------*/
+@media only screen and (max-width: 1060px){ 
+    
+    /*------ Header ------*/
+    .menupunkt {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+        padding: 5%;
+    }
+
+   nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   }
+
+   #burgermenu {
+    display: none;
+    background-color: rgba(226, 220, 190, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    position: sticky;
+    line-height: 30px;
+    border: 1px rgba(78, 79, 61, 1) solid;
+}
+
+#burgermenu {
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#closemenu {
+   width: 30px;
+   height: 35px;
+}
+
+    #logo {
+        justify-content: center;
+    }
+
+    #bruger_ikon {
+        padding: 5%;
+    }
+
+    /*--- footer ---*/
+    
+    #footer_links {
+        display: none;
+    }
+
+    #placeholder {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+   /*--- Main content ---*/
+   html {
+    background-image: url(img/iphone_baggtund.png);
+    background-size: cover;
+    height: 100%;
+  }
+
+   .img-text-box {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+   }
+
+   .centreret-text-left_forside {
+        text-align: center;
+        width: 100%;
+   }
+
+   .centreret-text-left {
+    text-align: center;
+    width: auto;
+   }
+
+   .centreret-text-right {
+    text-align: center;
+    width: auto;
+   }
+
+   .box-image {
+    height: 400px;
+    margin-top: 30px;
+    width: 100%;
+   }
+
+   h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    }
+
+    h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0 50px 0;
+    line-height: 35px;
+    letter-spacing: 1px;
+    }
+
+    h3 {
+    line-height: 35px;
+    }
+
+    h7 {
+    font-size: 20px;
+    }
+    .text_section {
+    height: 1000px;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .text_div {
+    width: 50%;
+    }
+
+    #logo {
+    width: 60px;
+    }
+
+    #bruger_ikon_billede {
+    width: 30px;
+    }
+
+    .tre_kort{
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .kort {
+    margin: 70px 0 70px 0;
+    }
+    .process_bar {
+    width: 80%;
+    } 
+
+    .karrusel_img {
+    width: 60%;
+    }
+
+    .nummer_img {
+    width: 30%;
+    }
+
+    main {
+    height: 100%;  
+    }
+
+    .tilkoebbox {
+    width: auto;
+    }
+
+    .tilkoeb-box-img {
+    height: 200px;
+    width: 300px;
+    }
+    .tilkoeb-text {
+    font-size: 7pt;
+    margin-right: 10px;
+    text-align: center;
+    }
+
+    .karrusel_knap {
+        font-size: 10pt;
+        width: 10px;
+        height: 10px;
+    }
+}
+
