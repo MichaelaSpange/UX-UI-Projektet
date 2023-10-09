@@ -563,9 +563,14 @@ hr {
     line-height: 35px;
     }
 
+    h4 {
+        font-size: 10pt;
+    }
+
     h7 {
     font-size: 20px;
     }
+
     .text_section {
     height: 1000px;
     align-items: center;
@@ -593,8 +598,14 @@ hr {
     margin: 70px 0 70px 0;
     }
     .process_bar {
-    width: 80%;
+    width: 70%;
+    margin-left: 12%;
     } 
+
+    .process_kasse {
+        padding: 40px;
+        width: 500px;
+    }
 
     .karrusel_img {
     width: 60%;
@@ -613,19 +624,29 @@ hr {
     }
 
     .tilkoeb-box-img {
-    height: 200px;
-    width: 300px;
+        height: 200px;
+        width: 300px;
     }
     .tilkoeb-text {
-    font-size: 7pt;
-    margin-right: 10px;
-    text-align: center;
+        font-size: 7pt;
+        margin-right: 10px;
+        text-align: center;
     }
 
     .karrusel_knap {
         font-size: 10pt;
-        width: 10px;
         height: 10px;
+        padding: 25px;
     }
+
+    .antal_knapper {
+        width: 50px;
+        font-size: 7pt;
+        padding: 10px;
+        margin: 3px;
+        text-align: center;
+    }
+   
 }
+
 
