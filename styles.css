@@ -399,7 +399,6 @@ margin-bottom: 10%;
 }
 
 /*--- Styling af H-tags ---*/
-
 h1 {
     font-size: 45px;
     letter-spacing: 2px;
@@ -541,9 +540,8 @@ hr {
    }
 
    .box-image {
-    height: 400px;
-    margin-top: 30px;
-    width: 100%;
+    width: 50%;
+    margin: 20px;
    }
 
    h1 {
@@ -624,13 +622,13 @@ hr {
     }
 
     .tilkoeb-box-img {
-        height: 200px;
-        width: 300px;
+        width: 50%;
     }
     .tilkoeb-text {
         font-size: 7pt;
         margin-right: 10px;
         text-align: center;
+        width: 50%;
     }
 
     .karrusel_knap {
